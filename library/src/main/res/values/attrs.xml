@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleLineItemLayout">
+        <attr name="simple_name_text" format="string"/>
+        <attr name="simple_content_text" format="string"/>
+        <attr name="simple_description_text" format="string"/>
+
+        <attr name="simple_name_icon" format="reference"/>
+        <attr name="simple_content_icon" format="reference"/>
+
+        <attr name="simple_name_text_size" format="dimension"/>
+        <attr name="simple_content_text_size" format="dimension"/>
+        <attr name="simple_description_text_size" format="dimension"/>
+
+        <attr name="simple_name_text_color" format="color"/>
+        <attr name="simple_content_text_color" format="color"/>
+        <attr name="simple_description_text_color" format="color"/>
+
+        <attr name="simple_name_text_left_margin" format="dimension"/>
+        <attr name="simple_content_text_right_margin" format="dimension"/>
+
+        <attr name="simple_description_text_right_margin" format="dimension"/>
+        <attr name="simple_description_text_top_margin" format="dimension"/>
+
+        <attr name="simple_name_icon_left_margin" format="dimension"/>
+        <attr name="simple_content_icon_right_margin" format="dimension"/>
+
+        <attr name="simple_name_icon_width" format="dimension"/>
+        <attr name="simple_name_icon_height" format="dimension"/>
+
+        <attr name="simple_content_icon_width" format="dimension"/>
+        <attr name="simple_content_icon_height" format="dimension"/>
+
+        <attr name="simple_top_divider" format="reference"/>
+        <attr name="simple_bottom_divider" format="reference"/>
+
+        <attr name="simple_margin_top" format="dimension"/>
+        <attr name="simple_margin_bottom" format="dimension"/>
+
+        <attr name="simple_switch_margin_right" format="dimension"/>
+
+        <attr name="simple_show_switch" format="boolean"/>
+
+        <attr name="simple_switch_thumb" format="reference"/>
+        <attr name="simple_switch_track" format="reference"/>
+
+    </declare-styleable>
+
+</resources>
